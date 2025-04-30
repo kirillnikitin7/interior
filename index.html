@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link type="image/x-icon" href="./img/favicon-32x32.png" rel="shortcut icon">
+    <link type="Image/x-icon" href="./img/favicon-32x32.png" rel="icon">
+    <title>Интерьер</title>
+</head>
+<body>
+    
+<header>
+    <div class="logo">
+    <span class="white-first-letter">И</span>
+    <span class="black-text">нтерьер</span>
+    </div>
+    <ul class="menu">
+        <li><a href="">Главная</a></li>
+        <li><a href="">Каталог</a></li>
+        <li><a href="">Блог</a></li>
+        <li><a href="">Решение</a></li>
+        <li><a href="">Контакты</a></li>
+    </ul>
+
+    <div class="option">
+        <img src="./img/lupa.svg" alt="">
+        <img src="./img/korzina.svg" alt="">
+    </div>
+
+    <button class="burger" onclick="otrit()">
+        <img src="./img/menu-burger.png" alt="" class="burger_button">
+    </button>
+    <div class="menu_burger" id="menu">
+        <ul class="">
+            <li><a href="">Главная</a></li>
+            <li><a href="">Каталог</a></li>
+            <li><a href="">Блог</a></li>
+            <li><a href="">Решение</a></li>
+            <li><a href="">Контакты</a></li>
+        </ul>
+        <div class="option">
+            <img id="lupa" src="./img/lupa.svg" alt="">
+            <img id="buy" src="./img/korzina.svg" alt="">
+        </div>
+        <button class="krest_button" onclick="zakrit()">
+            <img class="krest" src="./img/krestik.png" alt="">
+        </button>
+    </div>
+
+</header>
+
+<!--                                                        -->
+
+<main>
+    <div class="left">
+        <div class="line"></div>
+        <p>КАТАЛОГ</p>
+    </div>
+    
+<div class="line_title">
+    <p class="new">Лучшие новинки</p>
+    <div class="sort">
+        <a href="">Мебель</a>
+        <a href="">Свет</a>
+        <a href="">Декор</a>
+    </div>
+</div>
+
+<div class="cards">
+    <div class="card">
+        <img class="img_card" src="./img/1.png" alt="">
+        <div class="up">
+    <div class="black"><img src="./img/rest_like_buy.svg" alt=""></div>
+        <div class="info">
+        <p>Кресло</p>
+        <img src="./img/star.svg" alt="">
+        </div>
+
+        <div class="price">
+        <p class="no">4000 ₽</p>
+        <p class="yes">3500 ₽</p>
+        </div>
+
+        </div>
+    </div>
+<!--  -->
+    <div class="card">
+        <img class="img_card" src="./img/2.png" alt="">
+        <div class="up">
+    <div class="black"><img src="./img/rest_like_buy.svg" alt=""></div>
+        <div class="info">
+        <p>Кресло</p>
+        <img src="./img/star.svg" alt="">
+        </div>
+
+        <div class="price">
+        <p class="no">3400 ₽</p>
+        <p class="yes">3100 ₽</p>
+        </div>
+
+        </div>
+    </div>
+    <!--  -->
+    <div class="card">
+        <img class="img_card" src="./img/3.png" alt="">
+        <div class="up">
+    <div class="black"><img src="./img/rest_like_buy.svg" alt=""></div>
+        <div class="info">
+        <p>Ваза для цветов</p>
+        <img src="./img/star.svg" alt="">
+        </div>
+
+        <div class="price">
+        <p class="no"></p>
+        <p class="yes">1100 ₽</p>
+        </div>
+
+        </div>
+    </div>
+    <!--  -->
+    <div class="card">
+        <img class="img_card" src="./img/4.png" alt="">
+        <div class="up">
+    <div class="black"><img src="./img/rest_like_buy.svg" alt=""></div>
+        <div class="info">
+        <p>Стул</p>
+        <img src="./img/star.svg" alt="">
+        </div>
+
+        <div class="price">
+        <p class="no"></p>
+        <p class="yes">2300 ₽</p>
+        </div>
+
+        </div>
+    </div>
+    <!--  -->
+    <div class="card">
+        <img class="img_card" src="./img/5.png" alt="">
+        <div class="up">
+    <div class="black"><img src="./img/rest_like_buy.svg" alt=""></div>
+        <div class="info">
+        <p>Лампа</p>
+        <img src="./img/star.svg" alt="">
+        </div>
+
+        <div class="price">
+        <p class="no"></p>
+        <p class="yes">4800 ₽</p>
+        </div>
+
+        </div>
+    </div>
+    <!--  -->
+    <div class="card">
+        <img class="img_card" src="./img/11.png" alt="">
+        <div class="up">
+    <div class="black"><img src="./img/rest_like_buy.svg" alt=""></div>
+        <div class="info">
+        <p>Диван</p>
+        <img src="./img/star.svg" alt="">
+        </div>
+
+        <div class="price">
+        <p class="no">4100 ₽</p>
+        <p class="yes">3900 ₽</p>
+        </div>
+
+        </div>
+    </div>
+    <!--  -->
+    <div class="card">
+        <img class="img_card" src="./img/7.png" alt="">
+        <div class="up">
+    <div class="black"><img src="./img/rest_like_buy.svg" alt=""></div>
+        <div class="info">
+        <p>Серый стул</p>
+        <img src="./img/star.svg" alt="">
+        </div>
+
+        <div class="price">
+        <p class="no">4100 ₽</p>
+        <p class="yes">2500 ₽</p>
+        </div>
+
+        </div>
+    </div>
+    <!--  -->
+    <div class="card">
+        <img class="img_card" src="./img/8.png" alt="">
+        <div class="up">
+    <div class="black"><img src="./img/rest_like_buy.svg" alt=""></div>
+        <div class="info">
+        <p>Черный стул</p>
+        <img src="./img/star.svg" alt="">
+        </div>
+
+        <div class="price">
+        <p class="no"></p>
+        <p class="yes">3300 ₽</p>
+        </div>
+
+        </div>
+    </div>
+</div>
+</main>
+
+<!--                                                       -->
+
+<footer>
+
+<div class="logo_footer">
+    <span class="white-first-letter">И</span>
+    <span class="black-text_f">нтерьер</span>
+</div>
+
+    <p class="news">Подпишитесь на новости</p>
+    <p class="email_p">Оставьте свой email и вы будите получать<br> актуальную информацию о наших акциях и<br> новинках</p>
+
+<form class="form">
+    <input class="inp" type="email" name="email" placeholder="Введите email" required>
+    <input type="submit" class="sub" value="ПОДПИСАТЬСЯ"/>
+</form>
+
+</footer>
+<script>
+    let menuBurger = document.getElementById("menu");
+    let Lupa = document.getElementById("lupa");
+    let Buy = document.getElementById("buy");
+    menuBurger.style.height = "0px"
+    function otrit() {
+        if (menuBurger.style.height == "0px") {
+            menuBurger.style.height = "170px";
+        }
+    }
+    function zakrit() {
+        if (menuBurger.style.height == "170px") {
+            menuBurger.style.height = "0px";
+        }else {
+            menuBurger.style.height = "0px";
+
+        }
+    }
+    
+</script>
+</body>
+</html>
